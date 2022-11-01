@@ -1,0 +1,114 @@
+html{
+	overflow-x: hidden;
+}
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.shimmer {
+	background-image: linear-gradient(
+	90deg,
+	#EEEEEE 0% #EEEEEE 40%,
+	#DDDDDD 50%, #DDDDDD 55%,
+	#EEEEEE 65% #EEEEEE 100%
+	);
+	background-size: 400%;
+	animation: shimmer 1500ms infinite;
+}
+@keyframes shimmer {
+	from {background-position: 100% 100%; }
+	to {background-position: 0 0;}
+}
+
+#banner-image{
+    min-height: 600px;
+     
+    background: url("./images/bannclo.jpg") no-repeat center center;
+    background-size: cover;
+		
+}
+
+#pro-image{
+    min-height: 600px;		
+    padding-top: 75px;    
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;   
+    background: url("https://images4.alphacoders.com/270/thumb-1920-270166.gif") no-repeat center center;
+    background-size: cover;		
+}
+
+.zoom:hover {
+		transform: scale(1.2)
+}
+.zoom1:hover {
+	transform: scale(1.02)
+}
+.line{
+	display: flex;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.line1{
+	display: flex;
+}
+.col-md-3{
+	transition: 0.7s;
+}
+
+.col-md-3:hover{
+	transform: translateY(-5px);
+}
+.hel{
+    max-height:20px;
+}
+/*	#banner_content {
+		position: relative;
+		padding-top: 6%;
+		padding-bottom: 6%;
+		margin: 12% auto;
+		background-color: rgba(0, 0, 0, 0.7);
+		max-width: 660px;
+	}
+
+#pro-image{
+    min-height: 600px;		
+    padding-top: 75px;    
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;   
+    background: url("https://images4.alphacoders.com/270/thumb-1920-270166.gif") no-repeat center center;
+    background-size: cover;		
+}
+
+
+		footer {
+			position: fixed;
+			padding: 10px 0;
+			text-align: center;
+			bottom: 0;
+			background-color: #101010;
+			color: #9d9d9d;
+			width: 100%;
+}
+
+.panel-margin {
+	margin-top: 90px;
+	margin-bottom: 90px;
+
+
+
+.text-centre {
+	text-align: center;
+}
+
+#carousel{
+	text-align: center;
+}
+
+.thumbnail{
+	image-resolution: 20px;
+}
+*/
